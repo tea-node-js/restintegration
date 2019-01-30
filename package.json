@@ -1,0 +1,29 @@
+{
+  "name": "restintegration",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./index.js && echo '\u001b[32m\u001b[1mEslint validate success.\u001b[22m\u001b[39m'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea-node/restintegration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tea-node/restintegration/issues"
+  },
+  "homepage": "https://github.com/tea-node/restintegration#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  }
+}
